@@ -1,0 +1,8 @@
+mutation {
+  addBook(title: "New Book", author: "New Author") {
+    title
+    author {
+      name
+    }
+  }
+}
